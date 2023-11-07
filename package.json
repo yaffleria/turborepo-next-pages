@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "serve:dev": "turbo run serve:dev",
+    "serve:qa": "turbo run serve:qa",
+    "serve:prod": "turbo run serve:prod",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "graph": "turbo run build lint --graph=graph.png"

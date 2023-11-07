@@ -7,7 +7,15 @@
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {},
-    "dev": {
+    "serve:dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "serve:qa": {
+      "cache": false,
+      "persistent": true
+    },
+    "serve:prod": {
       "cache": false,
       "persistent": true
     }
